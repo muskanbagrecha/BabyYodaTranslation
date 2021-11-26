@@ -1,0 +1,112 @@
+body{
+    font-family: 'Kalam', cursive;
+    background-color: #E2E0E1;
+}
+:root {
+    --primary-color: #9cbb80;
+    --brown-color: #5e403b;
+    --grey-color: #938c8f;
+    --white-color: #cfced4;
+}
+
+header {
+    background-color: var(--grey-color);
+    width: 100%;
+    color: var(--brown-color);
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 10px;
+}
+footer{
+    background-color: var(--grey-color);
+    width: 100%;
+    color: black;
+    padding: 1rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer #copyright
+{
+    font-size: x-small;
+}
+
+h3{
+    color: var(--brown-color);
+}
+
+.span-highlight {
+    color: var(--primary-color);
+}
+
+
+
+textarea {
+    width: 30rem;
+    height: 10rem;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    padding: 10px;
+    font-size: 1rem;
+    margin: auto;
+    display: block;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+
+
+#btn-translate {
+    background-color: var(--brown-color);
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 1rem;
+    margin: auto;
+    display: block;
+    width: 10rem;
+    cursor: pointer;
+    border-radius: 10%;
+    margin-top: 20px;
+}
+
+#btn-translate:hover {
+    background-color: black;
+}
+
+#op-command{
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+
+#output {
+    width: 30rem;
+    height: 10rem;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    padding: 10px;
+    font-size: 1rem;
+    margin: auto;
+    display: block;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+img, iframe{
+    margin: 0 auto;
+    float: none;
+    text-align: center;
+    height: 500px;
+    width: 500px;
+    display: block;
+    padding-bottom: 20px;
+}
